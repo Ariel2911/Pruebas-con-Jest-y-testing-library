@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function App({ title, subtitle, name }) {
   return (
     <>
-      <div data-testid="test-title">{title}</div>
+      <h1 data-testid="test-title">{title}</h1>
       <p>{subtitle}</p>
       <p>{name}</p>
     </>
